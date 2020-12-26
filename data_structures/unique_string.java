@@ -14,7 +14,7 @@ public class unique_string {
         if (input.length() == 0)        
             System.out.println("No input :(.");
         else{
-            if(IsUnique(input))
+            if(IsUnique(input.toLowerCase()))
                 System.out.println("This word/phrase is unique.");
             else
                 System.out.println("This word/phrase is not unique.");

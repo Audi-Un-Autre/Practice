@@ -29,6 +29,9 @@ public class permutation {
         if (word1.length() != word2.length()) return false;
         if (word1.length() == 0 || word2.length() == 0) return false;
 
+        word1 = word1.toLowerCase();
+        word2 = word2.toLowerCase();
+
         char[] word1Array = word1.toCharArray();
         char[] word2Array = word2.toCharArray();
         HashMap<Character, Integer> word1Map = new HashMap<Character, Integer>();
