@@ -24,3 +24,4 @@ This repository tracks my practice and review of basic computer science concepts
   - [x] StringBuilder Basics
   - [x] Recursion
   - [ ] Binary Operations
+  - [x] Bubble Sorting
