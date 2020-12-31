@@ -5,7 +5,7 @@ This repository tracks my practice and review of basic computer science concepts
 * Data Structures
   - [x] HashMaps
   - [x] Arrays
-  - [ ] ArrayLists
+  - [x] ArrayLists
   - [ ] LinkedLists
   - [ ] Stacks & Queues
   - [ ] Trees & Graphs
@@ -20,11 +20,10 @@ This repository tracks my practice and review of basic computer science concepts
 
 <br />
 
-* - [ ] Recursion
+* - [x] Recursion
 * - [ ] Binary Operations
 
 <br />
 
 * Extra
   - [x] StringBuilder Basics
-  - [ ] StringBuilder Advanced
