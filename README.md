@@ -20,10 +20,7 @@ This repository tracks my practice and review of basic computer science concepts
 
 <br />
 
-* - [x] Recursion
-* - [ ] Binary Operations
-
-<br />
-
 * Extra
   - [x] StringBuilder Basics
+  - [x] Recursion
+  - [ ] Binary Operations
