@@ -3,6 +3,8 @@ package data_structures;
 import java.util.Scanner;
 import java.util.HashMap;
 
+// Hashmaps & charArrays
+
 public class permutation {
 
     public static void main(String[] args){

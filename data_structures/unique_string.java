@@ -3,6 +3,8 @@ package data_structures;
 import java.util.Scanner;
 import java.util.HashMap;
 
+//charArrays
+
 public class unique_string {
     public static void main(String[] args){
         Scanner ui = new Scanner(System.in);

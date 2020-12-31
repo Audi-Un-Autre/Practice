@@ -1,9 +1,10 @@
-package data_structures.sorts;
+package extra;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
 //recursive bubble sort with inclusion of leading zeros in input, keeping it as much non string operation as possible
+//ArrayLists
 
 public class bubblesort{
 
