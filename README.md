@@ -13,10 +13,10 @@ This repository tracks my practice and review of basic computer science concepts
   <br />
   
 * OOP
-  - [ ] Encapsulation
-  - [ ] Abstraction
-  - [ ] Inheritance
-  - [ ] Polymorphism
+  - [x] Encapsulation
+  - [x] Abstraction
+  - [x] Inheritance
+  - [x] Polymorphism
 
 <br />
 
