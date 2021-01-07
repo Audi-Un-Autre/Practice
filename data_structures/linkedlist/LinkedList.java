@@ -61,22 +61,37 @@ public class LinkedList<T> {
             if (current.next.data == data){
                 current.next = current.next.next;
             }
+            current = current.next;
         }
     }
-/*
-    public String removeDupes(){
-        if (head == null) return "List is empty.";
-        if (head.next == null) return "No duplicates.";
+
+    public void removeDupes(){
+        if (head == null) return;
+        if (head.next == null) return;
 
         Node<T> current = head;
+        Node<T> currentTemp = head;
 
-        while (current.next != null){ // use a tempHolder
-            if (current.next.data == current.data){
-
+        while (currentTemp.next != null){
+            int occurence = 0;
+            if (current.data == currentTemp.data) occurence++;
+            while (current.next != null){ // loop through all nodes in original list
+                if (current.next.data == currentTemp.data){
+                    occurence++;
+                    if (occurence > 1 && current.next.next != null)
+                        current.next = current.next.next;
+                    if (occurence > 1 && current.next.next == null){
+                        current.next = null;
+                        return; // end of list
+                    }
+                }
+                current = current.next;
             }
+            currentTemp = currentTemp.next;
+            current = head; // start back to beginning of original list
         }
     }
-*/
+
     public void ToString(){
         if (head == null) return;
         if (head.next == null){
@@ -87,6 +102,7 @@ public class LinkedList<T> {
         System.out.print(current.data);
         while (current.next != null){
             System.out.print(", " + current.next.data);
+            current = current.next;
         }
     }
 }
