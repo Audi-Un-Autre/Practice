@@ -6,7 +6,7 @@ This repository tracks my practice and review of basic computer science concepts
   - [x] HashMaps
   - [x] Arrays
   - [x] ArrayLists
-  - [ ] LinkedLists
+  - [x] LinkedLists
   - [ ] Stacks & Queues
   - [ ] Trees & Graphs
   
