@@ -1,6 +1,6 @@
 # Practice
 
-This repository tracks my practice and review of basic computer science concepts in Java 8.
+This repository tracks my practice and review of basic computer science concepts in Java 14.
 
 * Data Structures
   - [x] HashMaps
