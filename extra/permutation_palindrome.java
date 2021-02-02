@@ -1,4 +1,4 @@
-package data_structures;
+package extra;
 
 import java.util.*;
 
