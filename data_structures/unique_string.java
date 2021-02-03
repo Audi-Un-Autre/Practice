@@ -1,7 +1,6 @@
 package data_structures;
 
 import java.util.Scanner;
-import java.util.HashMap;
 
 //charArrays
 

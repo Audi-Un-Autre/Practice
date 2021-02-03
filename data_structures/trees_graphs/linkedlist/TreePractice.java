@@ -1,10 +1,20 @@
 package data_structures.trees_graphs.linkedlist;
 
-import data_structures.trees_graphs.linkedlist.Tree;
-
 public class TreePractice {
 
     public static void main(String[] args){
+
+/*
+                    4
+                /       \
+            3               8
+                        /        \
+                    7                33
+                                /
+                            21
+                        /
+                    9
+*/
         
         // wrapperless
         Node root = new Node(4);
@@ -22,8 +32,9 @@ public class TreePractice {
         root.deleteNode(8);
 
         root.inOrder();
-        
-        
+
+
+
 
         /*
         // wrapper

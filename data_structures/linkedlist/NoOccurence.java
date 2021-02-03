@@ -2,7 +2,7 @@ package data_structures.linkedlist;
 
 public class NoOccurence {
     public static void main(String[] args){
-        LinkedList list = new LinkedList<>();
+        LinkedList<Integer> list = new LinkedList<>();
 
         list.add(5);
         list.add(20);

@@ -2,7 +2,7 @@ package data_structures.linkedlist;
 
 public class NoDupes {
     public static void main(String[] args){
-        LinkedList dupes = new LinkedList();
+        LinkedList<Integer> dupes = new LinkedList<Integer>();
 
         dupes.add(1);
         dupes.add(1);

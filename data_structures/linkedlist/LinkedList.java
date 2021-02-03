@@ -52,8 +52,8 @@ public class LinkedList<T> {
     public void nthNodeFromEnd(int n){
         if (head == null) return;
 
-        Node current = head;
-        Node tracker = current;
+        Node<T> current = head;
+        Node<T> tracker = current;
 
         int steps = 0;
 

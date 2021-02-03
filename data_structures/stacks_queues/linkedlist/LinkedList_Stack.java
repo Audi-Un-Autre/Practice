@@ -6,8 +6,6 @@
 
 package data_structures.stacks_queues.linkedlist;
 
-import data_structures.stacks_queues.BobaTea;
-
 public class LinkedList_Stack<T> {
     Node<T> head;
 
