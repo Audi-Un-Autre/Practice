@@ -19,6 +19,67 @@ public class LinkedList<T> {
         current.next = new Node<T>(data);
     }
 
+    public void searchFor(int data){
+        if (head == null) return;
+
+        if (head.next == null){
+            if (head.data != data)
+                System.out.println(data + " not found.");
+            else if (head.data == data){
+                System.out.println(data + " found.");
+            }
+            return;
+        }
+
+        Node<T> current = head;
+        while(current.next != null){
+            if (current.data == data){
+                System.out.println(current.data + " found.");
+                return;
+            }
+            current = current.next;
+            if (current.next == null){
+                if (current.data == data){
+                    System.out.println(current.data + " found.");
+                    return;
+                }
+            }
+        }
+
+        System.out.println(data + " not found.");
+    }
+
+    public void nthNodeFromEnd(int n){
+        if (head == null) return;
+
+        Node current = head;
+        Node tracker = current;
+
+        int steps = 0;
+
+        while(tracker.next != null){
+            steps++;
+            tracker = tracker.next; // go to the end of list
+            if (tracker.next == null){ // count last node
+                steps++;
+            }
+        }
+
+        if (steps < n){
+            System.out.println("There are only " + steps + " nodes in this list.");
+            return;
+        } else{
+            int stepsToTake = steps - n; // steps - n is the nth from the last node, the count of the list minues the n elements
+            int stepsTaken = 0;
+            while(current.next != null && stepsTaken < stepsToTake){
+                stepsTaken++;
+                current = current.next;
+            }
+        }
+
+        System.out.println("The " + n + " node from the last is " + current.data);
+    }
+
     public void delete(){
         if (head == null) return;
         if (head.next == null) head = null;
